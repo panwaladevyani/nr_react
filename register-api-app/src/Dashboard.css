@@ -1,0 +1,110 @@
+/* Table Styles */
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.file-table th,
+.file-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.file-table th {
+  background-color: #2575fc;
+  color: white;
+  font-weight: bold;
+}
+
+.file-table td {
+  background-color: #f9f9f9;
+}
+
+.file-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.file-table td a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+.file-table td a:hover {
+  text-decoration: underline;
+}
+
+/* Pagination Styles */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination-buttons {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pagination-buttons button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination-buttons button:hover {
+  background-color: #1b5fb3;
+}
+
+.pagination-buttons button:disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+.upload_section {
+  display: flex;
+  gap: 12px;
+}
+
+.upload_section .form-control[type=file] {
+  width: 350px;
+}
+
+.upload_section button,
+.search_section button {
+  width: 150px;
+}
+
+.search_section {
+  display: flex;
+  gap: 12px;
+}
+
+.search_section input {
+  width: 350px;
+}
+
+.deleted_button {
+  text-align: end;
+}
+
+.pagination div {
+  align-items: center;
+}
+
+.title_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_section  button{
+  width: 150px !important;
+}
